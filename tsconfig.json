@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "target": "esnext",
+    "moduleResolution": "nodenext",
+    "module": "nodenext",
+    "strict": false,
+    "sourceMap": true,
+    "esModuleInterop": true, // Importar Librerias en ComonJs
+    "declaration": true, // Archivos de Definición
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "types": ["jest"],
+    "isolatedModules": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/**/*.test.ts"]
+}
